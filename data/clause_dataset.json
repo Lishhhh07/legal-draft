@@ -1,0 +1,67 @@
+{
+  "classes": [
+    "Confidentiality",
+    "Governing Law",
+    "Termination",
+    "Indemnification",
+    "Payment"
+  ],
+  "train": [
+    {"text": "The Receiving Party agrees to hold and maintain all Confidential Information in strict confidence.", "label": "Confidentiality"},
+    {"text": "The Receiving Party shall not disclose any Confidential Information to any third party without prior written consent.", "label": "Confidentiality"},
+    {"text": "Confidential Information shall include all proprietary, technical, and commercial data disclosed by the Disclosing Party.", "label": "Confidentiality"},
+    {"text": "The Receiving Party shall protect Confidential Information with the same degree of care it uses for its own confidential data.", "label": "Confidentiality"},
+    {"text": "The obligations of confidentiality shall survive the termination or expiration of this Agreement for five years.", "label": "Confidentiality"},
+    {"text": "Confidential Information does not include information that is publicly known or independently developed without breach.", "label": "Confidentiality"},
+    {"text": "Upon written request, the Receiving Party shall return or destroy all materials containing Confidential Information.", "label": "Confidentiality"},
+    {"text": "The Disclosing Party retains all right, title, and interest in and to its Confidential Information and trade secrets.", "label": "Confidentiality"},
+
+    {"text": "This Agreement shall be governed by and construed in accordance with the laws of the State of New York.", "label": "Governing Law"},
+    {"text": "This Agreement and all disputes arising hereunder shall be interpreted under the laws of the State of Delaware.", "label": "Governing Law"},
+    {"text": "The parties irrevocably consent to the exclusive jurisdiction and venue of the courts located in New York County.", "label": "Governing Law"},
+    {"text": "Any dispute arising out of or relating to this Agreement shall be submitted to binding arbitration.", "label": "Governing Law"},
+    {"text": "The prevailing party in any legal enforcement action shall be entitled to recover reasonable attorney fees.", "label": "Governing Law"},
+    {"text": "Each party waives any right to a trial by jury in any dispute arising out of this Agreement.", "label": "Governing Law"},
+    {"text": "The United Nations Convention on Contracts for the International Sale of Goods shall not apply to this Agreement.", "label": "Governing Law"},
+    {"text": "All legal actions shall be brought exclusively in the state or federal courts situated in California.", "label": "Governing Law"},
+
+    {"text": "Either party may terminate this Agreement upon thirty days prior written notice to the other party.", "label": "Termination"},
+    {"text": "Either party may terminate this Agreement immediately if the other party materially breaches any provision.", "label": "Termination"},
+    {"text": "In the event of insolvency or bankruptcy of either party, this Agreement may be terminated with immediate effect.", "label": "Termination"},
+    {"text": "Upon termination of this Agreement, the Client shall promptly pay all outstanding invoices for completed services.", "label": "Termination"},
+    {"text": "Termination of this Agreement shall not affect any accrued rights or liabilities of either party prior to termination.", "label": "Termination"},
+    {"text": "The provisions regarding confidentiality, indemnification, and liability shall survive the termination of this Agreement.", "label": "Termination"},
+    {"text": "Neither party may terminate this Agreement without cause during the initial one year commitment period.", "label": "Termination"},
+    {"text": "This Agreement will terminate automatically at the end of the initial term unless renewed in writing.", "label": "Termination"},
+
+    {"text": "The Service Provider agrees to defend, indemnify, and hold harmless the Client against any third-party claims.", "label": "Indemnification"},
+    {"text": "The Client agrees to indemnify and hold harmless the Service Provider from damages arising out of Client materials.", "label": "Indemnification"},
+    {"text": "In no event shall either party be liable for any indirect, incidental, special, or consequential damages.", "label": "Indemnification"},
+    {"text": "The total aggregate liability of either party under this Agreement shall not exceed the fees paid in the prior twelve months.", "label": "Indemnification"},
+    {"text": "The indemnified party shall promptly notify the indemnifying party in writing of any claim subject to indemnification.", "label": "Indemnification"},
+    {"text": "Neither party excludes or limits liability for gross negligence, willful misconduct, or fraud.", "label": "Indemnification"},
+    {"text": "Each party shall maintain adequate insurance coverage to support its indemnification obligations hereunder.", "label": "Indemnification"},
+    {"text": "Vendor shall defend and indemnify Company from any copyright or patent infringement allegations.", "label": "Indemnification"},
+
+    {"text": "The Client shall pay all invoiced amounts within thirty days of the date of invoice.", "label": "Payment"},
+    {"text": "Payment shall be made in United States Dollars by electronic wire transfer or credit card.", "label": "Payment"},
+    {"text": "Late payments shall accrue interest at the rate of one and one-half percent per month or the maximum permitted by law.", "label": "Payment"},
+    {"text": "All fees payable under this Agreement are exclusive of applicable taxes, duties, and government assessments.", "label": "Payment"},
+    {"text": "The Client shall reimburse the Service Provider for all reasonable pre-approved travel and out-of-pocket expenses.", "label": "Payment"},
+    {"text": "Except as explicitly provided in this Agreement, all payment obligations are non-refundable and non-cancellable.", "label": "Payment"},
+    {"text": "In the event of a good faith billing dispute, the Client shall notify the Provider within fifteen days of invoice receipt.", "label": "Payment"},
+    {"text": "Consultant shall submit monthly statements detailing hours and hourly rates for compensation.", "label": "Payment"}
+  ],
+  "test": [
+    {"text": "Recipient shall not disclose the Confidential Information to any person other than employees with a need to know.", "label": "Confidentiality"},
+    {"text": "Trade secrets and proprietary non-public documentation must be kept strictly confidential.", "label": "Confidentiality"},
+    {"text": "This contract shall be construed, enforced, and interpreted pursuant to the laws of England and Wales.", "label": "Governing Law"},
+    {"text": "The courts of Travis County, Texas shall possess sole and exclusive jurisdiction over any contractual claim.", "label": "Governing Law"},
+    {"text": "Company reserves the unilateral right to cancel and terminate this contract with sixty days advance written notice.", "label": "Termination"},
+    {"text": "Insolvency, liquidation, or material default shall entitle the innocent party to terminate immediately.", "label": "Termination"},
+    {"text": "Licensee shall indemnify, defend, and hold harmless Licensor against all third-party intellectual property suits.", "label": "Indemnification"},
+    {"text": "Under no circumstances shall cumulative damages exceed the total remuneration collected in the prior half year.", "label": "Indemnification"},
+    {"text": "Invoices are due net thirty days from invoice transmission date via ACH bank transfer.", "label": "Payment"},
+    {"text": "Customer shall remit payment in full including applicable sales taxes and milestone fee disbursements.", "label": "Payment"}
+  ]
+}
