@@ -432,3 +432,16 @@ legal-drafting-assistant/
 ├── .env.example
 ├── .gitignore
 └── README.md
+13. Disclaimer
+
+This project is developed for educational and experimental purposes. It does not provide legal advice, establish an attorney-client relationship, or replace consultation with a qualified legal professional.
+
+All generated documents should be independently reviewed before being used in actual legal proceedings or transactions.
+
+14. Acknowledgements
+
+This project uses open-source machine learning libraries and pretrained language models. Their respective authors and maintainers retain ownership of their original work.
+
+15. License
+
+Distributed under the MIT License. See the LICENSE file for details.
