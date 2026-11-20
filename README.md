@@ -7,7 +7,6 @@
 
 A Legal Drafting Assistant designed for paralegals and legal practitioners. It combines an n-gram language model built from scratch to draft simple legal clauses with a fine-tuned GPT-2 sequence classification model that instantly classifies the generated text into standard contract clause categories.
 
----
 
 ## What you are building
 
@@ -217,3 +216,166 @@ The classification model was evaluated against test legal contract clauses and c
 - **Perplexity Scoring**: Added language model evaluation via cross-entropy perplexity measurement.
 - **Context-Aware CLI**: CLI allows user-specified seed context, custom $n$-gram order, sampling temperature, and max token limits.
 - **Comprehensive Evaluation**: Complete precision, recall, F1, confusion matrix, and baseline comparison suite.
+# ⚖️ Legal Drafting Assistant
+
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![AI](https://img.shields.io/badge/AI-NLP-purple)
+![Status](https://img.shields.io/badge/Status-Development-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+An AI-powered Legal Drafting Assistant designed to simplify legal document preparation through natural language processing and machine learning.
+
+The project explores how language models and text-processing techniques can assist users in understanding legal inputs and generating structured legal drafts.
+
+## 1. Problem Statement
+
+Preparing legal documents often requires significant time, familiarity with legal terminology, and careful document structuring.
+
+This project aims to simplify parts of this process by building an intelligent assistant that processes user inputs and helps produce structured legal drafts.
+
+## 2. Key Features
+
+- **Legal Text Processing:** Processes user-provided legal information.
+- **AI-Assisted Drafting:** Helps generate structured legal document content.
+- **Language Model Integration:** Uses NLP techniques for text generation and processing.
+- **Document Structuring:** Organizes generated content into readable sections.
+- **Model-Based Processing:** Explores machine learning approaches for legal text tasks.
+- **Interactive Interface:** Provides an accessible way to interact with the application.
+
+## 3. System Architecture
+
+```text
+        USER INPUT
+             |
+             v
+     INPUT PROCESSING
+             |
+             v
+      TEXT PREPROCESSING
+             |
+             v
+      AI / NLP PIPELINE
+             |
+       +-----+------+
+       |            |
+       v            v
+   GPT-2 MODEL   N-GRAM MODEL
+       |            |
+       +-----+------+
+             |
+             v
+      OUTPUT GENERATION
+             |
+             v
+      STRUCTURED DRAFT
+```
+
+## 4. Technology Stack
+
+| Component | Technology |
+|---|---|
+| Programming Language | Python |
+| Machine Learning | PyTorch |
+| NLP | Tokenization and language modelling |
+| Language Model | GPT-2 |
+| Text Processing | Python NLP utilities |
+| Testing | Pytest / Unittest |
+| Version Control | Git and GitHub |
+
+*Update this table to match the actual implementation.*
+
+## 5. Project Workflow
+
+1. User provides the required information.
+2. The application processes and prepares the input.
+3. Text-processing components prepare the content for the model.
+4. The language model processes the input.
+5. The generated content is structured into a readable draft.
+6. The resulting document is presented to the user.
+
+## 6. Machine Learning Components
+
+The project explores language modelling approaches for processing and generating text.
+
+### GPT-2
+
+GPT-2 is used as a pretrained language model for text generation. It provides a foundation for experimenting with contextual language generation.
+
+### N-Gram Language Model
+
+The N-Gram approach models relationships between consecutive tokens using a limited context window.
+
+It provides a simpler language-modelling approach that can serve as a reference when studying the behaviour of more advanced models.
+
+## 7. Installation and Setup
+
+### Prerequisites
+
+- Python 3.12
+- Git
+- pip
+
+### Clone the repository
+
+```bash
+git clone https://github.com/Lishhhh07/legal-draft.git
+
+cd legal-draft
+```
+
+### Create a virtual environment
+
+**Windows PowerShell**
+
+```powershell
+py -3.12 -m venv .venv
+
+.venv\Scripts\Activate.ps1
+```
+
+**Linux/macOS**
+
+```bash
+python3.12 -m venv .venv
+
+source .venv/bin/activate
+```
+
+### Install dependencies
+
+```bash
+python -m pip install --upgrade pip
+
+pip install -r requirements.txt
+```
+
+### Run the application
+
+Use the actual application entry point:
+
+```bash
+python -m app.main
+```
+
+Replace this command if the project uses a different entry point.
+
+## 8. Testing
+
+Run the automated test suite:
+
+```bash
+pytest -v
+```
+
+Tests cover the implemented application components and help identify regressions during development.
+
+The repository also includes automated testing through GitHub Actions.
+
+## 9. Evaluation
+
+The project can be evaluated using:
+
+- Output relevance
+- Text structure and readability
+- Generation consistency
+- Processing time
