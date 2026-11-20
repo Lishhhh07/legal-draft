@@ -379,3 +379,56 @@ The project can be evaluated using:
 - Text structure and readability
 - Generation consistency
 - Processing time
+
+10. Limitations
+
+Generated legal text may contain inaccuracies.
+
+The quality of the output depends on the input and model.
+
+Generated drafts require review by a qualified legal professional.
+
+The model should not be treated as a replacement for professional legal advice.
+
+Language-model outputs may vary between runs.
+
+11. Future Improvements
+
+Support for additional legal document categories.
+
+Improved legal-domain datasets.
+
+More reliable document generation.
+
+Better evaluation using held-out examples.
+
+Improved user interface and document export.
+
+Integration with verified legal references.
+
+Multilingual legal document support.
+
+12. Project Structure
+
+Update this section to reflect the actual repository structure.
+
+legal-drafting-assistant/
+│
+├── app/
+│   ├── main.py
+│   └── ...
+│
+├── models/
+│
+├── data/
+│
+├── tests/
+│
+├── .github/
+│   └── workflows/
+│
+├── requirements.txt
+├── pytest.ini
+├── .env.example
+├── .gitignore
+└── README.md
